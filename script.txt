@@ -1,0 +1,66 @@
+USE [InventarioDB]
+GO
+
+INSERT INTO [dbo].[Producto]
+           ([name]
+           ,[price]
+           ,[description]
+           ,[stock]
+           ,[category]
+           ,[link])
+     VALUES(
+	 'Papa'
+           ,'10.50'
+           ,'Papa dulce'
+           ,22
+           ,'v'
+           ,'https://s3.amazonaws.com/codecademy-content/courses/React/react_photo-goose.jpg')
+
+
+INSERT INTO [dbo].[Producto]
+           ([name]
+           ,[price]
+           ,[description]
+           ,[stock]
+           ,[category]
+           ,[link])
+     VALUES(
+	 'Camote'
+           ,'10.50'
+           ,'Camote dulce'
+           ,30
+           ,'v'
+           ,'https://s3.amazonaws.com/codecademy-content/courses/React/react_photo-goose.jpg')
+
+INSERT INTO [dbo].[Producto]
+           ([name]
+           ,[price]
+           ,[description]
+           ,[stock]
+           ,[category]
+           ,[link])
+     VALUES(
+	 'Mandarina'
+           ,'10.50'
+           ,'Mandarina dulce'
+           ,10
+           ,'f'
+           ,'https://s3.amazonaws.com/codecademy-content/courses/React/react_photo-goose.jpg')
+
+INSERT INTO [dbo].[Producto]
+           ([name]
+           ,[price]
+           ,[description]
+           ,[stock]
+           ,[category]
+           ,[link])
+     VALUES(
+	 'Platano'
+           ,'10.50'
+           ,'Platano de isla dulce'
+           ,22
+           ,'f'
+           ,'https://s3.amazonaws.com/codecademy-content/courses/React/react_photo-goose.jpg')
+GO
+
+

@@ -1,0 +1,18 @@
+Este programa usa
+- Visual Studio 2019  (Para el API )
+- Microsoft SQLServer Management Studio 2019 (Para la base de datos SQL)
+
+En InventarioAPI
+	En el archivo appsettings.json , actualizar el nombre del servidor 
+
+	Tools-> NuGet Package Management -> Package Management Console-> 		> update-database
+	
+	Ejecutar el script(adjunto con este txt) para llenar datos de prueba
+
+Para la App-React
+	npm install
+	npm start
+
+
+
+
